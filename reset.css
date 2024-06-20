@@ -1,0 +1,61 @@
+Ferramentas CSS: redefinir CSS
+O objetivo de uma folha de estilo redefinida é reduzir inconsistências do navegador em coisas como alturas de linha padrão, margens e tamanhos de fonte de títulos e assim por diante. O raciocínio geral por trás disso foi discutido em uma postagem de maio de 2007 , se você estiver interessado. Os estilos de redefinição aparecem frequentemente em estruturas CSS, e a "redefinição meyerweb" original chegou ao Blueprint , entre outros.
+
+Os estilos de redefinição fornecidos aqui são intencionalmente muito genéricos. Não há nenhuma cor ou plano de fundo padrão definido para o bodyelemento, por exemplo. Eu particularmente não recomendo que você use isso em seu estado inalterado em seus próprios projetos. Ele deve ser ajustado, editado, estendido e ajustado para corresponder à sua linha de base de redefinição específica. Preencha suas cores preferidas para a página, links e assim por diante.
+
+Em outras palavras, este é um ponto de partida, não uma caixa preta independente de ausência de sensibilidade.
+
+Se você quiser usar meus estilos de redefinição, fique à vontade! É tudo explicitamente de domínio público (tenho que dizer isso formalmente ou então as pessoas me perguntam sobre licenciamento). Você pode pegar uma cópia do arquivo para usar e ajustar conforme melhor lhe convier. Se você prefere copiar e colar ou apenas deseja uma prévia na página do que receberá, aqui está.
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+Versões prévias
+v1.0 (200802)
+Agradecimentos
+Obrigado a Paul Chaplin pelas blockquote/ qregras.
