@@ -1,6 +1,7 @@
 @import url("/style/header.css");
 :root{                              /*root caixa para armazenar variáveis */
     --cor-de-fundo:#EBECEE;       /*--cor-de-fundo) variável */
+    --branco: #FFFFFF;
 }
 body{
     background-color: var(--cor-de-fundo);   /*substituindo o atributo cor plano de fundo pela variavel */
