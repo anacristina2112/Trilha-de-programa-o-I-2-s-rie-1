@@ -2,6 +2,9 @@
 :root{                              /*root caixa para armazenar variáveis */
     --cor-de-fundo:#EBECEE;       /*--cor-de-fundo) variável */
     --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
 }
 body{
     background-color: var(--cor-de-fundo);   /*substituindo o atributo cor plano de fundo pela variavel */
