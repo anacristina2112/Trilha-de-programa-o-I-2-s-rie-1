@@ -8,5 +8,8 @@
 }
 body{
     background-color: var(--cor-de-fundo);   /*substituindo o atributo cor plano de fundo pela variavel */
-        
+            font-family: var(--fonte-principal);
+        font-size: 16px;
+        font-weight: 400;
+         
 }
